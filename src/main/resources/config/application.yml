@@ -1,0 +1,18 @@
+
+############################
+# SERVER ###################
+############################
+server:
+  port: 8080
+
+############################
+# SPRING ###################
+############################
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: pantadb
+      username: root
+      password: root
